@@ -1,0 +1,646 @@
+body {
+	color:#cbcbcb;
+}
+
+a {text-decoration:none; color:#242f33; border: 0px;}
+a:hover {text-decoration:underline; border: 0px;}
+a.u {text-decoration:underline; border: 0px;}
+a.u:hover {text-decoration:none; border: 0px;}
+.n a, a.n, a.n:hover {text-decoration:none; border: 0px;}
+a:focus, a:active {outline: none;}
+
+
+#menu a {text-decoration:none; color:#b5b5b5; border: 0px;}
+#menu a:hover {border: 0px;}
+#menu a.u {text-decoration:underline; border: 0px;}
+#menu a.u:hover {text-decoration:none; border: 0px;}
+#menu .n a, a.n, a.n:hover {text-decoration:none; border: 0px;}
+#menu a:focus, a:active {outline: none;}
+
+/* ===== Home Page ==== */
+#main {
+	width:960px;
+	height:1190px;
+	margin-left: auto;
+	margin-right: auto;
+	background: #012914;
+}
+
+/* ====  Begin Title ==== */
+#header {
+	width:960px;
+	height:188px;
+	margin:0px;
+	padding:0px;
+	font-family:calibri;
+	font-weight: bold;
+	font-size: 20px;
+}
+
+#title {
+	position:relative;
+	width:960px;
+	height:152px;
+	margin:0px;
+	padding:0px;
+	background-image:url('../images/title_01.png');
+}
+
+#logo {
+	position: absolute;
+	width:675px;
+	top:35px;
+	right:260px;
+	padding:0px 0px 0px 25px;
+	margin:0px;
+}
+
+#menu {
+	position: absolute;
+	width:695px;
+	top:126px;
+	right:260px;
+	padding:0px 0px 0px 5px;
+}
+
+#subtitle {
+	position:relative;
+	width:960px;
+	height:36px;
+	background-image:url('../images/title_02.png');
+}
+
+#s1 {
+	position: absolute;
+	height:70px;
+	top:-5px;
+	left:75px;
+	font-family:calibri;
+	font-weight: bold;
+	font-size: 16px;
+}
+
+#arrow {
+	position: absolute;
+	top:5px;
+	left:32px;
+}
+
+.submenuHeight{
+	padding-top:10px;
+	padding-bottom:8px;
+	
+}
+
+/* ==== End Title ====*/
+
+#content {
+	position:relative;
+	width:680px;
+	height:910px;
+	float:left;
+	margin: 20px 0px 0px 20px;
+	background:#ffffff url(../images/ltc.png) no-repeat left top;
+}
+
+.mainTop{
+	width:30px;
+	height:27px;
+	margin-left:20px;
+	float:right;
+	background:#ffffff url(../images/rtc.png) no-repeat right top;
+}
+
+
+/* ==== Begin Sidebar ==== */
+
+#sidebar {
+	position:relative;
+	width:220px;
+	height:910px;
+	float:left;
+	background:red;
+	margin: 20px 20px 0px 20px;
+	background:#ffffff url(../images/ltc.png) no-repeat left top;
+}
+
+#sidebarContent {
+	position:relative;
+	width:180px;
+	height:27px;
+	float:left;
+	margin: 0px 20px 80px 20px;
+	font-family:Arial;
+	font-weight:bold;
+	font-size: 12px;
+	color:#000000;
+	
+}
+
+#sidebarFooter {
+	position:relative;
+	width:220px;
+	height:27px;
+	float:right;
+	margin: 0px 20px 0px 0px;
+	background:#ffffff url(../images/lbc.png) no-repeat left top;
+}
+
+#shopping {
+	margin: 0px 0px 0px 0px;
+}
+
+#shopping img {
+	vertical-align:text-top;
+}
+
+.borderGreen {
+	border-top-style:solid;
+	border-bottom-style:solid;
+	border-width:2px;
+	border-color:#98bf21;
+}
+
+.borderGreenBottom {
+	border-bottom-style:solid;
+	border-width:2px;
+	border-color:#98bf21;
+}
+
+/* ==== End Sidebar ====*/
+
+/* ==== Begin Main Panel ==== */
+#panel {
+	position:relative;
+	width:620px;
+	float:left;
+	margin: 0px 30px 0px 30px;
+	background:#FFFFFF;
+}
+
+#panelDesc {
+	width:270px;
+	position:relative;
+	margin: 0px;
+	z-index: 1;
+}
+
+#panelDescText {
+	position:absolute;
+	margin: 0px;
+	top:130px;
+	left:17px;
+	font-family:Arial;
+	font-size: 24px;
+	color:#FFFFFF;
+}
+
+#panelPicture {
+	position:absolute;
+	top:4px;
+	right:0px;
+	margin: 0px;
+	z-index:0;
+}
+
+#panelNavigation {
+	position:relative;
+	width:620px;
+	height:35px;
+	float:left;
+	margin: 0px;
+	background:#242f33 url(../images/prbc.png) no-repeat right top;
+}
+
+#panelNavigationButton {
+	position:absolute;
+	width:70px;
+	top:8px;
+	right:10px;
+	margin: 0px;
+
+}
+
+/* ==== End Main Panel ==== */
+
+/* ==== Begin Main Featured ==== */
+#featured {
+	position:relative;
+	width:620px;
+	float:left;
+	margin: 10px 30px 0px 30px;
+	padding-bottom:10px;
+	background:#FFFFF;
+	border-bottom-style:solid;
+	border-width:2px;
+	border-color:#98bf21;
+}
+
+#mainLeft {
+	width:300px;
+	float:left;
+	margin: 20px 0px 0px 30px;
+	padding-bottom:10px;
+	background:#FFFFFF;
+}
+
+#mainRight {
+	width:303px;
+	height:370px;
+	float:left;
+	margin: 20px 0px 0px 15px;
+	padding-bottom:10px;
+	background:#d5d7d8;
+}
+
+#mainItem {
+	position: absolute;
+	top:402px;
+	right:44px;
+
+}
+
+#mainDesc {
+	position: absolute;
+	width:135px;
+	top:400px;
+	right:20px;
+	font-family:Arial;
+	font-weight:bold;
+	font-size: 18px;
+	color:#000000;
+
+}
+
+#mainLeft img {
+	padding-bottom:10px;
+}
+
+/* ==== End Main Featured ==== */
+
+#mainFooter {
+	position:relative;
+	width:680px;
+	height:27px;
+	float:left;
+	margin: 0px 0px 0px 0px;
+	background:#ffffff url(../images/lbc.png) no-repeat left top;
+}
+
+.footerRight {
+	width:30px;
+	height:27px;
+	float:right;
+	margin: 0px 0px 0px 0px;
+	background:#ffffff url(../images/rbc.png) no-repeat left top;
+}
+
+
+.itemDesc {
+	position: absolute;
+	width:130px;
+	top:8px;
+	left:8px;
+	font-family:Arial;
+	font-weight:bold;
+	font-size: 18px;
+	color:#242f33;
+}
+
+.itemPosition{
+	position:relative;
+	width:282px;
+}
+.clear{
+	clear:both;
+}
+.w180{
+	width:180px;
+}
+.left10 {
+	padding-left:20px;
+}
+
+.pad10 {
+	padding: 8px 0px 8px 0px;
+}
+.mart30 {
+	margin: 0px 0px 0px 30px;
+}
+
+.fleft {
+	float:left;
+}
+
+.z1 {
+	z-index:1;
+}
+
+.arial14 {
+	font-family:Arial;
+	font-size: 14px;
+	color:#242f33;
+	text-align:center;
+}
+
+.arial11 {
+	font-family:Arial;
+	font-size: 11px;
+	color:#242f33;
+	text-align:right;
+}
+
+.arial12 {
+	font-family:Arial;
+	font-size: 14px;
+	color:#FFFFFF;
+}
+
+#s1, #s2, #s3{display:none;}
+
+
+/* ===== SECONDARY COMMON CLASSES ===== */
+
+#pageContents {
+	position:relative;
+	width:680px;
+	float:left;
+	margin: 0px 0px 0px 20px;
+
+}
+
+#pageTop {
+	width:680px;
+	height:27px;
+	float:left;
+	margin: 20px 0px 0px 0px;
+	background:#cbcbcb url(../images/gltc.png) no-repeat left top;
+}
+
+#pageHeader {
+	position:relative;
+	width:680px;
+	height:60px;
+	float:left;
+	margin: 0px 0px 0px 0px;
+	background:#cbcbcb;
+	border-bottom-style:solid;
+	border-width:2px;
+	border-color:#242f33;
+}
+
+#pageTitle {
+	position: absolute;
+	width:505px;
+	top:-22px;
+	left:8px;
+}
+
+#pageBC {
+	position: absolute;
+	width:170px;
+	top:36px;
+	left:8px;
+	font-family:calibri;
+	font-weight: bold;
+	font-size: 16px;
+	color:#242f33;
+}
+
+#sort{
+	position: absolute;
+	width:100px;
+	top:36px;
+	left:430px;
+	font-family:calibri;
+	font-weight: bold;
+	font-size: 16px;
+	color:#242f33;
+}
+
+#sort div:hover{
+	background:url(../images/menu_bkg.png) repeat-x;
+	background-position: 0% 15%;
+	background-repeat: no-repeat;
+}
+
+#productSort{
+	position: absolute;
+	width:100px;
+	top:0px;
+	left:60px;
+	font-family:calibri;
+	font-weight: bold;
+	font-size: 16px;
+	color:#242f33;
+}
+
+#priceSort{
+	position: absolute;
+	width:100px;
+	top:0px;
+	left:132px;
+	font-family:calibri;
+	font-weight: bold;
+	font-size: 16px;
+	color:#242f33;
+}
+
+#defaultSort{
+	position: absolute;
+	width:100px;
+	top:0px;
+	left:181px;
+	font-family:calibri;
+	font-weight: bold;
+	font-size: 16px;
+	color:#242f33;
+}
+
+#pageLeft {
+	width:130px;
+	height:801px;
+	float:left;
+	margin: 0px 0px 0px 0px;
+	background:#cbcbcb url(../images/left.png) repeat left top;
+
+}
+
+#pageRight {
+	width:550px;
+	height:801px;
+	float:left;
+	margin: 0px 0px 0px 0px;
+	background:#FFFFFF;
+	border-bottom-style:solid;
+	border-width:2px;
+	border-color:#242f33;
+}
+
+#pageBottom {
+	position:relative;
+	width:680px;
+	height:47px;
+	float:left;
+	margin: 0px 0px 0px 0px;
+	background:#cbcbcb url(../images/glbc.png) no-repeat left bottom;
+}
+
+#pageContents a{text-decoration:none; color:#242f33; border: 0px;}
+#pageContents a:hover {border: 0px;}
+#pageContents a.u {text-decoration:underline; border: 0px;}
+#pageContents a.u:hover {text-decoration:none; border: 0px;}
+#pageContents .n a, a.n, a.n:hover {text-decoration:none; border: 0px;}
+#pageContents a:focus, a:active {outline: none;}
+
+.cornerRightTop {
+	width:30px;
+	height:27px;
+	float:right;
+	background:#ffffff url(../images/grtc.png) no-repeat right top;
+}
+
+.cornerRightBottom {
+	width:30px;
+	height:47px;
+	margin-left:20px;
+	float:right;
+	background:#cbcbcb url(../images/grbc.png) no-repeat right bottom;
+}
+
+.pageButton {
+    width: 150px;
+	font-family:calibri;
+	font-weight: bold;
+	font-size: 16px;
+	color:#242f33;
+	text-indent:5px;
+	border-bottom-style:solid;
+	border-width:2px;
+	border-color:#FFFFFF;
+}
+
+.pageButtonSelected {
+    width: 150px;
+	font-family:calibri;
+	font-weight: bold;
+	font-size: 16px;
+	color:#242f33;
+	background: #FFFFFF;
+	text-indent:5px;
+	border-bottom-style:solid;
+	border-width:2px;
+	border-color:#FFFFFF;
+}
+
+#pageLeft div:hover{
+	background:url(../images/wte.png) repeat-x;
+	background-position: 0% 15%;
+	background-repeat: no-repeat;
+}
+
+.margTop{
+	margin-top:10px;
+}
+/* ===== END SECONDARY COMMON CLASSES ===== */
+
+/* ====== PRODUCT PAGE ====== */
+
+.pageItems {
+	width:180px;
+	float:left;
+	margin-top:15px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.pageItems img {
+	align:center;
+}
+
+.pageItemsText {
+	width:180px;
+	float:left;
+	margin-top:10px;
+	font-family:calibri;
+	font-weight: bold;
+	font-size: 16px;
+	color:#242f33;
+	text-align: center;
+}
+
+.pageItemsTextGreen{
+	font-family:calibri;
+	font-weight: bold;
+	font-size: 14px;
+	color:#667a70;
+	text-align: center;
+}
+
+/* ====== END PRODUCT PAGE ====== */
+
+
+/* ====== BEGIN FAQs PAGE ====== */
+
+#faqbody{
+	padding: 15px 15px 0px 0px;
+	font-family:calibri;
+	font-weight: bold;
+	font-size: 16px;
+	color:#242f33;
+}
+
+.faqAnswer{
+	font-family:calibri;
+	font-weight: bold;
+	font-size: 14px;
+	color:#667a70;
+}
+
+/* ====== END FAQs PAGE ====== */
+
+/* ====== BEGIN CONTACT US PAGE ====== */
+
+.contactTitles {
+	float:left;
+	width:120px;
+	padding-top:15px;
+	font-family:calibri;
+	font-weight: bold;
+	font-size: 16px;
+	color:#242f33;
+}
+
+.contactTitles div{
+	width:120px;
+	height:21px;
+	font-family:calibri;
+	font-weight: bold;
+	font-size: 16px;
+	color:#242f33;
+}
+
+#contactForm{
+	float:left;
+	padding-top:15px;
+	color:#242f33;
+}
+
+.contactText {
+	padding-top:15px;
+	height:21px;
+	font-family:calibri;
+	font-weight: bold;
+	font-size: 16px;
+	color:#667a70;
+}
+
+.contactTitlesHeight{
+	height:52px;
+}
+
+.messageBox{
+	height:150px;
+}
+
+/* ====== END CONTACT US PAGE ====== */
